@@ -8,6 +8,7 @@ import Experience from './components/experience/experience';
 import Contact from './components/contact/contact';
 import Portfolio from './components/portfolio/portfolio';
 import Footer from './components/footer/footer';
+import Services from './components/services/services'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
     <Nav />
     <About />
     <Experience />
+    <Services />
     <Portfolio />
     <Contact />
     <Footer />
