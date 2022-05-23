@@ -1,8 +1,26 @@
 import React from 'react';
+import BtnH from './buttons-header'
+import Pic from '../../assets/neon-space-1.jpg'
+import Socials from './socials-header'
+import './header.css'
 
 const Header = () => {
     return(
-        <div>Header</div>
+        // <div>Header</div>
+        <header>
+            <div className='container header_container'>
+                <h5>Hey there, I'm</h5>
+                <h1>Libby Marchetti</h1>
+                <h5 className='text-light'>Fullstack Developer</h5>
+                <BtnH />
+                <Socials />
+                <div className='pic'>
+                    <img src={Pic} alt='neon space' />
+                </div>                
+                <a href='#contact' className='scroll_down'>Scroll Down</a>
+            </div>
+
+        </header>
     )
 }
 

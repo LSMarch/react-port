@@ -118,10 +118,11 @@ a:hover{
   color: var(--color-bg)
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
+  border-radius: 5rem;
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ======= */
