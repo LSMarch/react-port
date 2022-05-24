@@ -51,11 +51,16 @@ header {
     overflow: hidden;
     border-radius: 5rem 5rem 0 0; 
     padding: 5rem 1rem 1rem 1rem;
+    
 }
 
-/* .pic img {
+.pic img {
     border-radius: 5rem;
-} */
+    display: block;
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
 
 /* =========== scroll ========== */
 

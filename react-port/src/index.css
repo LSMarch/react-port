@@ -36,7 +36,7 @@ code {
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-sm:90%;
+  --container-width-sm: 90%;
 }
 
 html{
@@ -72,7 +72,7 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vp;
+  /* height: 100vp; */
 }
 
 section > h2, section > h5 {
@@ -120,12 +120,14 @@ a:hover{
   color: var(--color-bg)
 }
 
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+/* img { */
+  /* display: block; */
+  /* width: 100%; */
+  /* object-fit: cover; */
   /* border-radius: 5rem; */
-}
+  /* height: 10rem; */
+  /* aspect-ratio: 1/1; */
+/* } */
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {

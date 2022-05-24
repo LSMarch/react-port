@@ -5,9 +5,8 @@
 }
 
 .about_me {
-    width: 100%;
-    /* height will always match width */
-    aspect-ratio: 1/1;
+    width: 100%;    
+    /* aspect-ratio: 1/1; */
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -25,8 +24,8 @@
     overflow: hidden;
     transform: rotate(10deg);
     height: 10rem;
-    /* width: 11rem; */
-    transition: var(--transition);
+    /* width: 30rem; */
+    transition: var(--transition);    
 }
 
 .about_me-img:hover {
@@ -35,7 +34,7 @@
 
 .about_cards {
     display: grid;
-    grid-template-columns: repeate(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
@@ -82,7 +81,7 @@
     }
 
     .about_me {
-        width: 30%;
+        width: 50%;
         margin: 2rem auto 4rem;
     }
 
@@ -91,12 +90,15 @@
     }
 
     .about_cards {
-        grid-template-columns: 1fr;
-        width: 100vw;
+        grid-template-columns: 1fr 1fr;
+        /* width: 100vw; */
         display: flex;
         justify-content: center;
-
     }
+
+    /* .about_card {
+        width: 33%;
+    }  */
 
     
 }
@@ -111,7 +113,12 @@
     .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        /* width: 33%; */
     }
+
+    /* .about_card {
+        width: 33%;
+    } */
 
     .about_content {
         text-align: center;
