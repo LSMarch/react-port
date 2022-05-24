@@ -1,5 +1,6 @@
 import React from 'react';
-import Pic from '../../assets/neon-space-1.jpg';
+// import ME from '../../assets/me.png';
+import AbtMe from '../../assets/me-about.jpg';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers, FiFolder} from 'react-icons/fi';
 import './about.css'
@@ -13,7 +14,7 @@ const About = () => {
             <div className='about_container container'>
                 <div className='about_me'>
                     <div className='about_me-img'>
-                        <img src={Pic} alt='neon space' />
+                        <img src={AbtMe} alt='neon space' />
                     </div>
                 </div>
                 <div className='about_content'>

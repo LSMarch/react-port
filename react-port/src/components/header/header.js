@@ -1,6 +1,6 @@
 import React from 'react';
 import BtnH from './buttons-header'
-import Pic from '../../assets/neon-space-1.jpg'
+import ME from '../../assets/me.png'
 import Socials from './socials-header'
 import './header.css'
 
@@ -15,7 +15,7 @@ const Header = () => {
                 <BtnH />
                 <Socials />
                 <div className='pic'>
-                    <img src={Pic} alt='neon space' />
+                    <img src={ME} alt='neon space' />
                 </div>                
                 <a href='#contact' className='scroll_down'>Scroll Down</a>
             </div>

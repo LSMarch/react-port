@@ -1,10 +1,10 @@
 import React from 'react';
-import Resume from '../../assets/webdev-resume.pdf'
+import CV from '../../assets/cv.pdf'
 
 const BtnH = () => {
     return(
         <div className='btnh'>
-            <a href={Resume} download className='btn'>Download Resume</a>
+            <a href={CV} download className='btn'>Download Resume</a>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
     )
