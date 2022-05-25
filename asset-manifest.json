@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-port/static/css/main.e8ab59ab.css",
+    "main.js": "/react-port/static/js/main.506c8356.js",
+    "static/js/787.510e8dec.chunk.js": "/react-port/static/js/787.510e8dec.chunk.js",
+    "static/media/prof.jpg": "/react-port/static/media/prof.781b459477c912c16a2e.jpg",
+    "static/media/portfolio5.png": "/react-port/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/react-port/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/react-port/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/react-port/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/react-port/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/react-port/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/webdev-resume.pdf": "/react-port/static/media/webdev-resume.dfe3839761f2af32ff66.pdf",
+    "index.html": "/react-port/index.html",
+    "main.e8ab59ab.css.map": "/react-port/static/css/main.e8ab59ab.css.map",
+    "main.506c8356.js.map": "/react-port/static/js/main.506c8356.js.map",
+    "787.510e8dec.chunk.js.map": "/react-port/static/js/787.510e8dec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ab59ab.css",
+    "static/js/main.506c8356.js"
+  ]
+}
