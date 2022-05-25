@@ -4,14 +4,16 @@ import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine, RiWhatsappLine} from 'react-icons/ri';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+// import 'react-scripts';
 
 const Contact = () => {
+    // const whatsApp = process.env.REACT_APP_WHATS_APP;
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
         e.target.reset();
-        emailjs.sendForm('service_azyj87b', 'template_cdeueo8', form.current, '9oFSmBTZbI9Ievl59')        
+        emailjs.sendForm(process.env.REACT_APP_EJS_SERVICE, process.env.REACT_APP_EJS_TEMPLATE, form.current, process.env.REACT_APP_EJS_ID)        
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -28,21 +30,18 @@ const Contact = () => {
                     <article className='option'>
                         <MdOutlineEmail className='icon'/>
                         <h4>Email</h4>
-                        <h5>someemail@whereever.com</h5>
-                        <a href='mailto:someemail@whereever.com'>Send a Message</a>
+                        <h5>lsmarchetti01@gmail.com</h5>
+                        <a href='mailto:lsmarchetti01@gmail.com'>Send an Email</a>
                     </article>
                     <article className='option'>
                         <RiMessengerLine className='icon'/>
-                        <h4>Messenger</h4>
-                        <h5>someemail@whereever.com</h5>
-                        <a href='https://facebook.com' target='_blank' rel="noreferrer">Facebook</a>
+                        <h4>Messenger</h4>                        
+                        <a href={process.env.REACT_APP_MESSENGER} target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                     <article className='option'>
                         <RiWhatsappLine className='icon'/>
-                        <h4>Email</h4>
-                        <h5>someemail@whereever.com</h5>
-                        {/* <a href='https://api.whatsapp.com/send?phone=123456513241234 plus country code */}
-                        <a href='https://whatsapp.com' target='_blank' rel="noreferrer">WhatsApp</a>
+                        <h4>WhatsApp</h4>                       
+                        <a href={process.env.REACT_APP_WHATS_APP} target='_blank' rel="noreferrer">Send a Message</a>
                     </article>
                 </div>
                 {/* End Contact Options */}

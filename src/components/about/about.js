@@ -1,6 +1,5 @@
 import React from 'react';
-// import ME from '../../assets/me.png';
-import AbtMe from '../../assets/me-about.jpg';
+// import AbtMe from '../../assets/me-about.jpg';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers, FiFolder} from 'react-icons/fi';
 import './about.css'
@@ -11,12 +10,7 @@ const About = () => {
         <section id='about'>
             <h5>Get to Know</h5>
             <h2>About Me</h2>
-            <div className='about_container container'>
-                <div className='about_me'>
-                    <div className='about_me-img'>
-                        <img src={AbtMe} alt='neon space' />
-                    </div>
-                </div>
+            <div className='about_container container'>                
                 <div className='about_content'>
                     <div className='about_cards'>
                         <article className='about_card'>

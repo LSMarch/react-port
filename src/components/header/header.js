@@ -1,12 +1,11 @@
 import React from 'react';
 import BtnH from './buttons-header'
-import ME from '../../assets/me.png'
+import ME from '../../assets/prof.jpg'
 import Socials from './socials-header'
 import './header.css'
 
 const Header = () => {
-    return(
-        // <div>Header</div>
+    return(        
         <header>
             <div className='container header_container'>
                 <h5>Hey there, I'm</h5>

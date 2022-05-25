@@ -21,7 +21,7 @@ const Footer = () => {
                 <a href='https://twitter.com'><FaTwitter /></a>
             </div>
             <div className='footer_copyright'>
-                <small>&copy; LIBBY. All rights reserved</small>
+                <small>&copy; lm.web.dev. All rights reserved</small>
             </div>
         </footer>
     )

@@ -3,7 +3,6 @@ import './nav.css';
 import {AiOutlineHome, AiOutlineUser, AiOutlineMessage} from 'react-icons/ai';
 import {BsBook} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
-// import {useState} from 'react'
 
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#')

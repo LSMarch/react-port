@@ -1,35 +1,7 @@
 .about_container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 1fr;
     gap: 15%;
-}
-
-.about_me {
-    width: 100%;    
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
-    display:grid;
-    place-items: center; 
-    /* height: 10rem;    */
-}
-
-.about_me-img {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    /* height: 10rem; */
-    /* width: 30rem; */
-    transition: var(--transition);    
-}
-
-.about_me-img:hover {
-    transform: rotate(0deg);
 }
 
 .about_cards {
@@ -68,9 +40,14 @@
     color: var(--color-b-light);
 }
 
-.about_content p {
+.about_content  {
     margin: 2rem 0 2.6rem;
     color: var(--color-b-light);
+    text-align: center;
+}
+
+.about_content p {
+    margin: 2rem 0 2rem;
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ======= */
